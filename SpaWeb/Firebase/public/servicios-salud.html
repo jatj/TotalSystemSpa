@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- CSS docs -->
+		<link rel="stylesheet" type="text/css" href="Resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+		<!-- JS docs -->
+		<script type="text/javascript" src="Resources/js/jquery-2.2.0.min.js"></script>
+    	<script type="text/javascript" src="Resources/js/bootstrap.min.js"></script>
+		<!-- Fuentes -->
+
+		<!-- Titulo -->
+		<title>Servicios de salud</title>
+	</head>
+	<body>
+		<!-- Topbar -->
+		<nav id="topBar" class="navbar navbar-fixed-top navbar-default">
+			<div class="container-fluid" style="padding:0px;">
+				<!-- Boton de collapse -->
+				<button type="button" class="navbar-toggle pull-left collapsed" data-toggle="collapse" data-target="#topBarContent" id="topBarButton">
+			    	<span class="bar1"></span>
+			    	<span class="bar2"></span>
+			    	<span class="bar3"></span> 
+				</button>
+				<!-- Logo/boton home -->
+				<div class="pull-left" id="logo"><img src="Resources/images/logo-barra menu.svg" class="img-responsive"alt="Logo"></div>
+				<!-- Contenid de la barra collapse -->
+				<div class="collapse navbar-collapse pull-right" id="topBarContent">
+					<ul class="nav navbar-nav" id="topBarList">
+						<li class="topBarItem"><a class="topBarLink text-center"href="inicio.html">Inicio</a></li>
+						<li class="topBarItem"><a class="topBarLink text-center"href="conocenos.html">Conócenos</a></li>
+						<li id="topBarCollapseService" class="topBarItem"><a class="topBarLink text-center"href="servicios.html">Servicios</a>
+							<ul id="topbarCollapseServices">
+                            	<li><a  class="topBarLink" href="servicios-salud.html">Salud</a></li>
+		                        <li><a  class="topBarLink" href="servicios-belleza.html">Belleza</a></li>
+		                        <li><a  class="topBarLink" href="servicios-relajacion.html">Relajación</a></li>
+		                        <li><a  class="topBarLink" href="servicios.html">Ver todo</a></li>
+							</ul>
+						</li>
+						<li id="topBarNormalService" class="dropdown topBarItem"><a href="servicios.html" class="topBarLink text-center dropdown-toggle" data-toggle="dropdown">Servicios</a>
+                        <ul class="dropdown-menu" id="topBarDropDown">
+                            <li><a href="servicios-salud.html">Salud</a></li>
+                            <li><a href="servicios-belleza.html">Belleza</a></li>
+                            <li><a href="servicios-relajacion.html">Relajación</a></li>
+                            <li><a href="servicios.html">Ver todo</a></li>
+						</ul>
+						<li class="topBarItem"><a class="topBarLink text-center"href="contacto.html">Contacto</a></li>
+				</div>
+			</div>
+		</nav>
+		<!-- Content -->
+		<div id="servicios_content" class="container-fluid">
+			<div id="servicios_grid" class="row">
+				<div id="servicios_faciales" class="grid_item_big col-sm-6 col-xs-12">
+					<div class="grid_shadow">
+						<a class="grid_text" href="subservicio.html?category=Salud&subCategory=Faciales">Faciales</a>
+					</div>
+				</div>
+				<div id="servicios_corporales" class="grid_item_big col-md-3 col-sm-6 col-xs-12">
+					<div class="grid_shadow">
+						<a class="grid_text" href="subservicio.html?category=Salud&subCategory=Corporales">Corporales</a>
+					</div>
+				</div>
+				<div id="servicios_desintoxicantes" class="grid_item_big col-md-3 col-sm-6 col-xs-12">
+					<div class="grid_shadow">
+						<a class="grid_text" href="subservicio.html?category=Salud&subCategory=Desintoxicantes">Desintoxicantes</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div id="footer" class="container-fluid">
+			<div class="row text-center">
+				<h3></h3>
+			</div>
+		</div>
+		<script type="text/javascript" src="Resources/js/servicios.js"></script>
+	</body>
+</html>
+		

@@ -1,0 +1,193 @@
+{
+  "Servicios" : {
+    "Belleza" : {
+      "Cabello" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maiores, delectus illum expedita quis consequuntur? Alias quas qui veniam, dicta, illum, ad atque explicabo facilis aspernatur ullam voluptate. Modi, dolore.",
+        "image" : "Resources/images/belleza-extensiones-de-cabello-servicios.jpg",
+        "servicios" : [ {
+          "Descripcion" : "Podrás elegir el largo y el tono del caballo también podrás decir sobre el volúmen que te agrade mejor. El costo depende de el largo, y el volúmen de cabello de cada paciente",
+          "Duracion" : "60 mins",
+          "Nombre" : "Extensiones de cabello"
+        } ]
+      },
+      "Cejas" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sit ut, necessitatibus vitae, sequi unde soluta amet modi similique veritatis libero nihil voluptate, sunt, alias quas. Voluptatum ullam, nihil placeat.",
+        "image" : "Resources/images/belleza-planchado-de-cejas---servicios.jpg",
+        "servicios" : [ {
+          "Descripcion" : "Esta técnica te permitirá moldear tu ceja haciendo que se vea mas delineada y el vello mas definido, incluye diseño de ceja.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Planchado de cejas"
+        } ]
+      },
+      "Descripcion" : "Hoy en día el cuidado personal se ha convertido en una necesidad, y es un tema de interés para hombres y mujeres. El vernos y sentirnos bien nos ayuda a mantener un equilibrio entre nuestro cuerpo y nuestra mente. El cuidado de la piel, masajes relajantes periódicamente, el ejercicio, una buena alimentación son aspectos que nos ayudan a lograr ese equilibrio, nos permiten vernos y sentirnos bien. Total system spa ha desarrollado una variedad de tratamientos faciales y corporales que se adaptarán a la necesidad de cada paciente.",
+      "Mani pedi" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores quo ullam, rerum et minima cum commodi voluptatum unde, ab animi, similique veniam id repudiandae voluptate ex deleniti. Et, cumque!",
+        "image" : "Resources/images/belleza-mani-pedi--servicios.jpg",
+        "servicios" : [ {
+          "Descripcion" : "Te ayuda a tener en perfecto estado tus uñas ya que es un tratamiento higiénico permitiendo embellecer tus manos y pies.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Manicure y pedicure, gelish"
+        } ]
+      },
+      "Pestañas" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit tempore magnam aliquam. Blanditiis vero beatae maxime minus quaerat assumenda quis ab harum totam aspernatur unde nostrum magnam, iusto, perferendis.",
+        "image" : "Resources/images/belleza-pestañas-servicios.jpg",
+        "servicios" : [ {
+          "Descripcion" : "Es una aplicación de pelo a pelo en tus pestañas donde el efecto es super natural e indoloro haciendo que tu mirada se intensifique y agrande tu ojo",
+          "Duracion" : "60 mins",
+          "Nombre" : "Extensión tipo mink y rizado de pestañas"
+        } ]
+      },
+      "Piernas" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus porro deserunt, inventore temporibus praesentium tenetur in quas iure facilis reiciendis cumque similique vero. Nam dignissimos architecto voluptas ducimus culpa dolorem!",
+        "image" : "Resources/images/belleza-piernas---servicios.jpg",
+        "servicios" : [ {
+          "Descripcion" : "Depilación definitiva con shr (super hair removal), es una nueva tecnología don de combina el láser y la luz pulsada intensa así logrando mejores resultados en menor tiempo ademas de que tu piel esta mas protegida y el tratamiento es más agradable.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Depilación definitiva"
+        } ]
+      }
+    },
+    "Relajación" : {
+      "Descripcion" : "Hoy en día el cuidado personal se ha convertido en una necesidad, y es un tema de interés para hombres y mujeres. El vernos y sentirnos bien nos ayuda a mantener un equilibrio entre nuestro cuerpo y nuestra mente. El cuidado de la piel, masajes relajantes periódicamente, el ejercicio, una buena alimentación son aspectos que nos ayudan a lograr ese equilibrio, nos permiten vernos y sentirnos bien. Total system spa ha desarrollado una variedad de tratamientos faciales y corporales que se adaptarán a la necesidad de cada paciente.",
+      "Masajes" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptatem repellat, molestiae consectetur nemo, aut modi officia, reprehenderit dolore voluptatum veritatis perferendis repudiandae veniam eius doloribus animi culpa unde minima.",
+        "image" : "Resources/images/relajación-masajes--servicios.jpg",
+        "servicios" : [ 
+         {
+          "Descripcion" : "Esta técnica es muy suave ya que con ayuda del calor de las piedras sobre tu cuerpo tus músculos se relajarán , activarás la circulación y eliminarás toxinas.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Masaje de piedras"
+        }
+        ]
+      },
+      "Rituales" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed non recusandae quod tempora dolore sunt earum, molestiae eius aliquid. Placeat magnam voluptatibus at beatae dolores sed nostrum modi aut ratione.",
+        "image" : "Resources/images/relajación-rituales---servicios.jpg",
+        "servicios" : [ 
+         {
+          "Descripcion" : "Esta terapia es muy completa ya que se te realizará un tratamiento corporal abarcando todo tu cuerpo, realizando exfoliación , envoltura, masaje y haciendo un facial con base a las necesidades de tu piel, creando un ambiente de máxima relajación, incluye masaje, desintoxicador de iones, cápsula fototerapia, termoterapia,manicure y pedicure.",
+          "Duracion" : "4 hrs",
+          "Nombre" : "Spa day"
+        },
+        {
+          "Descripcion" : "Este tipo de terapia es un conjunto de varios tratamientos que están enfocados a mejorar todo tu cuerpo. Incluye, facial ultrasónico, desintoxicador, cápsula, exfoliación, masaje relajante.",
+          "Duracion" : "2 hrs",
+          "Nombre" : "Medio spa day"
+        },
+        {
+          "Descripcion" : "Terapia donde los dos podrán disfrutar de tratamientos faciales y corporales relajantes haciendo su estancia confortable, aumentando la conexión emocional y mental entre pareja. Incluye exfoliación, masaje relajante con velas aromáticas, facial ultrasónico.",
+          "Duracion" : "90 mins",
+          "Nombre" : "Ritual de pareja"
+        }
+        ]
+      }
+    },
+    "Salud" : {
+      "Corporales" : {
+        "Descripcion" : "Hoy en día el masaje es una excelente alternativa para combatir un sin número de malestares, debido a que actúa a nivel fisiológico, mental, emocional y estético. Existen diferentes tipos de masaje y sus beneficios van de acuerdo a la técnica de aplicación, sin embargo, todas nuestras terapias van acompañadas de música suave, aromaterapia, creando un ambiente acogedor. El masaje ofrece múltiples beneficios ya que además de combatir el estrés y dolores musculares, mejora la calidad de vida ya que combate problemas de insomnio, agotamiento crónico, migraña, favorece la circulación sanguínea aumentando tu energía (rendimiento físico). Además mejora el sistema linfático y el sistema nervioso, oxigena el cerebro y despeja la mente favoreciendo la concentración.",
+        "image" : "Resources/images/salud-corporal-servcicios.jpg",
+        "servicios" : [ 
+        {
+          "Descripcion" : "Es un método muy moderno, que nos permite evaluar en pocos minutos el estado general de su salud, mediante la resonancia magnética, nuestro cuerpo emite ondas electromagnéticas que son captadas por el equipo y este a su vez, mediante gráficas nos arroja resultados en forma rápida y eficaz.",
+          "Duracion" : "10 mins",
+          "Nombre" : "Diagnóstico corporal: Escaneo cúantico corporal"
+        },
+        {
+          "Descripcion" : "Esta cápsula con un sofisticado sistema de 5 terapias, tales como fototerapia, termoterapia, musicoterapia, aromaterapia y vibroterapia, que al combinarse entre sí, te brindaran una sensación de bienestar, el tratamiento va acompañado de una exfoliación corporal. Al tiempo que oxigenarán tu cuerpo, activarán la circulación sanguínea, mejorará tu sistema metabólico y ayudará a combatir la molesta grasa y la celulitis.",
+          "Duracion" : "35 mins min",
+          "Nombre" : "Cápsula spa: Total Therapy Spa"
+        },
+         {
+          "Descripcion" : "Ésta terapia es ideal para combatir el estrés ya que se aplican movimiento suaves y armónicos acompañados de musicoterapia y escencias aromáticas que en conjunto te llevarán a olvidarte de las tensiones produciendo una agradable sensación de bienestar a nivel físico y mental.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Relajantes"
+        },
+        {
+          "Descripcion" : "Terapia ideal para combatir dolores crónicos como lumbalgias, dorsalgias, etc. en esta técnica se aplica digitopresión para ayudar a deshacer los nudos musculares y nervios contraídos que son los causantes del dolor, el tratamiento va acompañado de infrarrojos de onda lejana que funciona como un analgésico y desinflamatorio ayudando a reducir el dolor de forma inmediata.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Descontracturantes"
+        },
+        {
+          "Descripcion" : "Este masaje es ideal para mejorar la circulación sanguínea y eliminar los líquidos retenidos en el cuerpo. Ideal como tratamiento y postquirúrgicos estéticos y rehabilitación. Recuerda que debido a la mala circulación se acumulan líquidos en el cuerpo que producen sensación de pesadez y afectan terriblemente la circulación sanguínea provocando enfermedades peores.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Drenaje linfático"
+        },
+        {
+          "Descripcion" : "Masaje por el cual llegamos a nivel muscular , preparándolo o relajándolo para algún entrenamiento en específico, se activa la circulación sanguínea y aumentando la energía y el rendimiento físico.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Masaje Deportivo"
+        },
+        {
+          "Descripcion" : "Terapia donde la mayor parte del tiempo la manipulación es con los pulgares y las palmas de las manos para así ejercer presión sobre los músculos y corregir las dolencias.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Masaje shiatsu"
+        } 
+        ]
+      },
+      "Descripcion" : "Para Total System Spa es muy importante complementar un buen estado de salud para ofrecer mejores resultados a nuestros pacientes, por lo que contamos con equipos muy sofisticados que no son invasivos y no representan el menor riesgo para el paciente, ya que en ningún tratamiento se utilizan agujas, ni alguna técnica riesgosa. Y estos equipos nos ayudan a tener un diagnóstico de referencia, y también a desintoxicar el cuerpo para que el paciente tenga un mejor resultado. Por lo que ofreceremos los siguientes servicios dentro de esa área.",
+      "Desintoxicantes" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error minima, laudantium eligendi mollitia commodi quam. Asperiores delectus fuga culpa maiores fugiat rerum labore modi sapiente quia alias. Culpa, fuga.",
+        "image" : "Resources/images/salud-desintoxicante-servicios.jpg",
+        "servicios" : [ 
+        {
+          "Descripcion" : "Terapia relajante, que no genera ninguna molestia y que se complementa con un masaje de vibración que activará su circulación sanguínea. Se realiza mediante aplicación de un equipo que genera iones y de esta forma el cuerpo eliminará las toxinas acumuladas, previniendo enfermedades ayudando a mejorar los resultados de cualquier tratamiento en el spa. Además te brindará más energía al liberar te de las toxinas acumuladas.",
+          "Duracion" : "25 mins",
+          "Nombre" : "Detoxificación Iónica: Body Detox"
+        } 
+        ]
+      },
+      "Faciales" : {
+        "Descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias assumenda repellat ipsa at rem perferendis neque consequatur ut hic? Architecto consequatur neque, doloribus sunt eaque eveniet sit laboriosam libero quod.",
+        "image" : "Resources/images/salud-facial-servicios.jpg",
+        "servicios" : [ 
+        {
+          "Descripcion" : "Mediante una cámara que cuenta con una lámpara de luz especial, es posible identificar el tipo de piel del paciente, y que él mismo pueda ver cuáles son los problemas que presenta su piel. Además le permitirá ver los avances en sus tratamientos.",
+          "Duracion" : "10 mins",
+          "Nombre" : "Diagnóstico Facial : Escáner facial"
+        },
+         {
+          "Descripcion" : "Tratamiento ideal para eliminar impurezas sin dolor, al tiempo que oxigenas e hidratas tu piel dejándola radiante, ideal para todo tipo de piel.",
+          "Duracion" : "90 mins",
+          "Nombre" : "Limpieza profunda: skin- bell"
+        },
+         {
+          "Descripcion" : "Facial donde se trabaja por medio de vibraciones ultrasónicas lo que facilita retirar impurezas y favorece una penetración mas profunda de los nutrientes.",
+          "Duracion" : "40 mins",
+          "Nombre" : "Limpieza ultrasónica: ultra-peel"
+        },
+        {
+          "Descripcion" : "Luce una piel radiante , previniendo la aparición de imperfecciones como manchas y arrugas. Este tratamiento va acompañado de una suave exfoliación, y se complementa con la cápsula de cromoterapia y termoterapia que facilita la penetración de los nutrientes de la mascarilla a un nivel profundo, obteniendo resultados visibles desde la primer sesión.",
+          "Duracion" : "50 mins",
+          "Nombre" : "Hidratación profunda hidra skin"
+        },
+        {
+          "Descripcion" : "La falta de oxígeno en tu piel es uno de los factores que contribuyen a la vejes prematura, por lo que le brindaremos oxígeno a tu piel mediante un equipo que nos ayuda a proporcionar cantidades concentradas a tu piel a base de presión, el tratamiento es muy relajante y no presenta ningún tipo de molestia, además incluye una mascarilla que será el complemento ideal para resultados espectaculares en tu piel.",
+          "Duracion" : "50 mins",
+          "Nombre" : "Oxigenación facial: oxy skin"
+        },
+        {
+          "Descripcion" : "Redefine tu óvalo facial contribuyendo a un efecto tensor y rejuvenecedor.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Lifting facial: radiance peel"
+        },
+        {
+          "Descripcion" : "Tratamiento seguro y eficaz a base de presión negativa que permite rellenar las líneas de expresión con un efecto inmediato, incluye el complemento de terapia con radiofrecuencia, lo que ofrece resultados inmediatos.",
+          "Duracion" : "50 mins",
+          "Nombre" : "Relleno de líneas de expresión: anti-age"
+        },
+        {
+          "Descripcion" : "Facial donde se oxigena la célula y su vez produciendo nuevas células para ir disminuyendo poco a poco la pigmentación, acompañado de ozonificador, fototerapia, e infrarrojo de onda lejana que disminuirán la pigmentación desde tu primer sesión.",
+          "Duracion" : "50 mins",
+          "Nombre" : "Control de pigmentación Clarance Skin"
+        },
+        {
+          "Descripcion" : "Tratamiento bactericida y regenerante , donde al mismo tiempo de ir quitando los brotes vamos desvaneciendo la secuela de los mismos, la terapia se realiza con fototerapia, ozonificador,y ultrasonido.",
+          "Duracion" : "60 mins",
+          "Nombre" : "Control de acné"
+        }
+        ]
+      }
+    }
+  }
+}

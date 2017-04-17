@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- CSS docs -->
+		<link rel="stylesheet" type="text/css" href="Resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="Resources/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+		<!-- JS docs -->
+		<script type="text/javascript" src="Resources/js/jquery-2.2.0.min.js"></script>
+    	<script type="text/javascript" src="Resources/js/bootstrap.min.js"></script>
+		<!-- Fuentes -->
+
+		<!-- Titulo -->
+		<title>Contacto</title>
+	</head>
+	<body style="height: 100vh;">
+		<!-- Topbar -->
+		<nav id="topBar" class="navbar navbar-fixed-top navbar-default">
+			<div class="container-fluid" style="padding:0px;">
+				<!-- Boton de collapse -->
+				<button type="button" class="navbar-toggle pull-left collapsed" data-toggle="collapse" data-target="#topBarContent" id="topBarButton">
+			    	<span class="bar1"></span>
+			    	<span class="bar2"></span>
+			    	<span class="bar3"></span> 
+				</button>
+				<!-- Logo/boton home -->
+				<div class="pull-left" id="logo"><img src="Resources/images/logo-barra menu.svg" class="img-responsive"alt="Logo"></div>
+				<!-- Contenid de la barra collapse -->
+				<div class="collapse navbar-collapse pull-right" id="topBarContent">
+					<ul class="nav navbar-nav" id="topBarList">
+						<li class="topBarItem"><a class="topBarLink text-center"href="inicio.html">Inicio</a></li>
+						<li class="topBarItem"><a class="topBarLink text-center"href="conocenos.html">Conócenos</a></li>
+						<li id="topBarCollapseService" class="topBarItem"><a class="topBarLink text-center"href="servicios.html">Servicios</a>
+							<ul id="topbarCollapseServices">
+                            	<li><a  class="topBarLink" href="servicios-salud.html">Salud</a></li>
+		                        <li><a  class="topBarLink" href="servicios-belleza.html">Belleza</a></li>
+		                        <li><a  class="topBarLink" href="servicios-relajacion.html">Relajación</a></li>
+		                        <li><a  class="topBarLink" href="servicios.html">Ver todo</a></li>
+							</ul>
+						</li>
+						<li id="topBarNormalService" class="dropdown topBarItem"><a href="servicios.html" class="topBarLink text-center dropdown-toggle" data-toggle="dropdown">Servicios</a>
+                        <ul class="dropdown-menu" id="topBarDropDown">
+                            <li><a href="servicios-salud.html">Salud</a></li>
+                            <li><a href="servicios-belleza.html">Belleza</a></li>
+                            <li><a href="servicios-relajacion.html">Relajación</a></li>
+                            <li><a href="servicios.html">Ver todo</a></li>
+						</ul>
+						<li class="topBarItem"><a class="topBarLink text-center"href="contacto.html">Contacto</a></li>
+				</div>
+			</div>
+		</nav>
+		<!-- Content -->
+		<div id="contacto_content" class="container-fluid">
+			<div id="sucursales" class="row text-center">
+				<div id="sucursales_text" class="col-xs-12">Sucursal</div>
+				<div class="col-sm-12 col-xs-12 sucursal">
+					<p> <span class="fa fa-map-marker"></span> Avenida Arneses #124,<br> Col. Minerva, Ciudad de México<br>CP. 09810 <br> Tel. 55 104 234 98</p>
+				</div>
+				<!-- <div class="col-sm-6 col-xs-12 sucursal">
+					<p> <span class="fa fa-map-marker"></span> Sports World Pedregal Plaza Acora<br>Ladera #16, Jardines del pedregal de San Ángel<br>t. 5555-5555 </p>
+				</div>
+				<div class="col-sm-6 col-xs-12 sucursal">
+					<p> <span class="fa fa-map-marker"></span> Sports World San Ángel<br>Fernando M. Villalpando #98, Álvaro Obregón<br>Guadalupe Inn<br>t. 5555-5555</p>
+				</div> -->
+			</div>
+			<div id="redes" class="row text-center">
+				<div class="col-xs-12">
+					<ul id="redes_icons" class="list-inline">
+						<li><a href="" class="redes_icon fa fa-facebook"></a></li>
+						<li><a href="" class="redes_icon fa fa-instagram"></a></li>
+						<li><a href="mailto:totalsystemspa@gmail.com<" class="redes_icon fa fa-envelope"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="mail" class="row text-center">
+				<p id="mail_head">¿Te interesa ser parte de Total System Spa?</p>
+				<p id="mail_content">Escríbenos a totalsystemspa@gmail.com</p>
+			</div>
+		</div>
+	</body>
+</html>
+		

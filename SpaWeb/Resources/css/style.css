@@ -1,0 +1,637 @@
+/*################################################### General ############################################################*/
+@font-face {
+    font-family: garamond;
+    src: url("../fonts/Garamond.ttf");
+}
+@font-face {
+    font-family: futura;
+    src: url("../fonts/Futura (Light)-2.ttf");
+}
+*{
+	font-family:garamond; 
+	color:#3F3125;
+}
+body{
+	background-color: #F9F6E7;
+}
+/*################################################### TopBar #############################################################*/
+#topBar{
+	height: auto;
+	margin: 0px;
+	border:0px;
+	background-color: #B9D6B0;
+}
+#topBarContent{
+	max-height: none;
+}
+#topBarButton{
+	margin:35px 24px;
+}
+#logo{
+	width:400px;
+	height: 90px;
+	margin-left: 10px;
+}
+#logo>img{
+	height: 100%;
+}
+#topBarContent{
+	padding: 30px 15px;
+}
+.topBarItem{
+	margin-right: 20px;
+}
+
+.topBarLink{
+	outline: none !important;
+	padding: 5px !important;
+	color: #F9F6E7 !important;
+	font-family: futura;
+	font-weight: bold;
+	font-size: 180%;
+}
+.topBarLink:hover{
+	text-decoration: underline !important;
+	font-style: italic;
+}
+.topBarLink:hover,.topBarLink:focus{
+	outline: none;
+}
+/*Dropdown*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ #topBarDropDown{
+ 	background-color: #B9D6B0;
+ }
+.dropdown-menu > li > a:hover {
+    background-color: #8AB87D;
+    background-image: none;
+}
+.dropdown-menu > li > a{
+	color:#F9F6E7 !important;
+	font-family: futura;
+	font-weight: bold;
+ }
+.dropdown > a:focus{
+	background-color: #B9D6B0 !important;
+    background-image: none;
+}
+#topbarCollapseServices{
+	list-style-type: none;
+}
+#topbarCollapseServices > li{
+	margin-top: 10px;
+	color:#F9F6E7;
+	border-bottom: 3px solid #F9F6E7;
+}
+#topbarCollapseServices > li >a{
+	color:#F9F6E7;
+}
+#topBarCollapseService,#topBarCollapseServices{
+	display: none;
+}
+#topBarNormalService{
+	display: block;	
+}
+ /*Responsive topbar*/
+@media (max-width: 953px) {
+	#logo{
+		width:300px;
+		height: 90px;
+	}
+	.topBarLink{
+		font-size: 120%;
+	}
+}
+/*For when data is collapsed*/
+@media (max-width: 767px) {
+	#topBarCollapseService,#topBarCollapseServices{
+		display: block;
+	}
+	#topBarNormalService{
+		display: none;	
+	}
+	#logo{
+		width:calc(100% - 70px);
+		height: 90px;
+		margin: 0px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#topBarContent{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	#topBarList{
+		margin: 0px;
+		padding-top: 10px;
+		padding-right: 5%;
+		padding-left: 4%;
+		padding-bottom: 0px;
+	}
+	.topBarItem{
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.topBarItem>a{
+		text-align: left;
+		border-bottom: 3px solid #F9F6E7;
+	}
+	.topBarLink:hover{
+		text-decoration: none !important;
+		font-style: italic;
+	}
+}
+#topBarButton{
+	background-color: transparent;
+}
+
+/*For button animation*/
+.bar1,.bar2,.bar3{
+	background-color: #F9F6E7;
+}
+.navbar-toggle * {
+	-ms-transition: all 0.4s ease;
+  	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.navbar-toggle {
+	color: transparent;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	padding: 0px;
+	border-radius: 0px;
+	border: none;
+}
+.navbar-toggle span {
+	width: 20px;
+	height: 2px;
+	margin-bottom: 3px;
+	/*background-color: #999;*/
+	display: block;
+}
+.navbar-toggle span.bar1 {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+	-ms-transform-origin: 1px 3px;
+	-webkit-transform-origin: 1px 3px;
+  -moz-transform-origin: 1px 3px;
+  -o-transform-origin: 1px 3px;
+	transform-origin: 1px 3px;
+	width: 24px;
+}
+.navbar-toggle span.bar2 {
+	-ms-transform: rotate(-360deg) scale(0);
+	-webkit-transform: rotate(-360deg) scale(0);
+  	-moz-transform: rotate(-360deg) scale(0);
+  	-o-transform: rotate(-360deg) scale(0);
+	transform: rotate(-360deg) scale(0);
+}
+
+.navbar-toggle span.bar3 {
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-ms-transform-origin:9px 2px;
+	-webkit-transform-origin: 9px 2px;
+	transform-origin: 9px 2px;
+	width: 24px;
+}
+.navbar-toggle.collapsed span.bar1,
+.navbar-toggle.collapsed span.bar2,
+.navbar-toggle.collapsed span.bar3,
+.navbar-toggle.collapsed span.bar4 {
+	-ms-transform: none;
+	-webkit-transform: none;
+	transform: none;
+	width: 20px;
+}
+/*################################################### Footer #############################################################*/
+#footer{
+	background-color: #F9F6E7;
+}
+@media (max-width: 605px) {
+	#footer>div>h3{
+		font-size: 14px;
+	}	
+}
+/*################################################### Chat #############################################################*/
+#chat{
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 270px;
+	background-color: #B9D6B0;
+	border: 2px solid #8AB87D;
+}
+#chat_title{
+	width: 100%;
+	padding-top:15px;
+	padding-right:20px;
+	padding-left:20px;
+	background-color: #A9D19E;
+	cursor: pointer;
+}
+#chat_titleButton{
+	width: 100%;
+	padding-top:15px;
+	padding-right:20px;
+	padding-left:20px;
+	background-color: #A9D19E;
+	cursor: pointer;
+}
+#chat_title>p{
+	font-size: 25px;
+}
+#chat_text{
+	width: 100%;	
+}
+#chat_text>p{
+	margin-top: 12px;
+	color:#F9F6E7;
+	font-size: 22px;
+}
+#chat_textButton{
+	width: 100%;	
+	cursor: pointer;
+}
+#chat_textButton>p{
+	margin-top: 12px;
+	color:#F9F6E7;
+	font-size: 22px;
+}
+#chat_img{
+	font-size: 40px;
+	color:#F9F6E7;
+	margin-bottom: 15px;
+}
+#chat_head{
+	font-size: 20px;
+}
+#chat_head>span{
+	color:#F9F6E7;
+}
+#chat_content{
+	background-color:#F9F6E7;
+	height: 200px;
+}
+#chatSmall{
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background-color: #B9D6B0;
+	border: 2px solid #8AB87D;
+}
+#chat_imgSmall{
+	font-size: 20px;
+	color:#F9F6E7;
+	padding: 10px;
+	cursor: pointer;
+}
+#chat_titleSmall{
+	width: 100%;
+	padding-top:15px;
+	padding-right:20px;
+	padding-left:20px;
+	background-color: #A9D19E;
+	cursor: pointer;
+}
+#chat_contentSmall{
+	background-color:#F9F6E7;
+	height: 200px;
+}
+@media (max-width: 767px) {
+	#chat{
+		display: none;
+	}
+	#chatSmall{
+		display: block;
+	}
+}
+/*################################################### Index ############################################################*/
+#loading_img{
+	height:100%; 
+	position:fixed; 
+	right:0px;
+	z-index: 10;
+}
+#index_content{
+	background-image: url("../images/pagina-inicial-fondo.jpg");
+	background-size: cover;
+	background-position: 50%;
+	height: 100%;
+	width: 100%;
+}
+#index_logo{
+	margin-top: 30vh;
+}
+#index_footer{
+	background-color: #B9D6B0;
+	height: 100px;
+	width: 100%;
+	position:fixed;
+	bottom: 0px
+}
+.footer_container_title{
+	padding: 0px;
+	padding-top: 30px;
+}
+.footer_title{
+	font-size: 36px;
+	color:#F9F6E7 !important;
+	font-family: futura;
+	font-weight: bold;
+}
+@media (max-width: 767px) {
+	#index_footer{
+		height: 70px;
+	}
+	.footer_container_title{
+		padding-top: 20px;
+	}
+	.footer_title{
+		font-size: 25px;
+	}
+}
+@media (max-width: 560px) {
+	#index_footer{
+		height: 60px;
+	}
+	.footer_title{
+		font-size: 20px;
+	}
+}
+@media (max-width: 460px) {
+	#index_footer{
+		height: 50px;
+	}
+	.footer_container_title{
+		padding-top: 18px;
+	}
+	.footer_title{
+		font-size: 14px;
+	}
+}
+@media (max-width: 320px) {
+	.footer_title{
+		font-size: 12px;
+	}
+}
+/*################################################### 404 ############################################################*/
+#not_found{
+	font-size:2.5em;
+	color: #91AA87;
+}
+/*################################################### Inicio ############################################################*/
+#inicio_content{
+	margin-top: 90px;
+}
+#inicio_slogan{
+	background-image: url("../images/patron-inicio.svg");
+}
+#inicio_slogan_text{
+	background-color: #F9F6E7;
+	height: 250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+#inicio_image{
+	background-image: url("../images/foto-pagina-inicio.png");
+	background-position: 50%;
+	background-size: cover;
+	height: 500px;
+}
+#inicio_text{
+	margin-top:30px;
+	height: 300px;
+}
+@media (max-width: 605px) {
+	#inicio_slogan_text>h1{
+		font-size: 25px;
+	}
+	#inicio_text>h1{
+		font-size: 25px;
+	}
+}
+@media (max-width: 440px) {
+	#inicio_slogan_text>h1{
+		font-size: 20px;
+	}
+	#inicio_text>h1{
+		font-size: 20px;
+	}
+}
+/*################################################### Servicio ############################################################*/
+#servicios_content{
+	margin-top: 100px;
+}
+#servicios_grid{
+	padding-left: 0px;
+}
+.grid_item_big,.grid_item_small{
+	border:5px solid #F9F6E7;
+	background-size: cover;
+	background-position: 50%;
+}
+.grid_shadow{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/marca de agua para fotos.svg");
+	background-size: cover;
+	background-position: 50%;
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+.grid_shadow:hover{
+	opacity: 1;
+	transition: all 0.7s ease;
+}
+.grid_text{
+	position: absolute;
+	color:#3F3125 !important;
+	text-decoration: none!important;
+	font-size: 40px;
+}
+#servicios_masajes{
+	background-image: url("../images/relajación-masajes--servicios.jpg");
+}
+#servicios_faciales{
+	background-image: url("../images/salud-facial-servicios.jpg");
+}
+#servicios_corporales{
+	background-image: url("../images/salud-corporal-servcicios.jpg");
+}
+#servicios_rituales{
+	background-image: url("../images/relajación-rituales---servicios.jpg");
+}
+#servicios_desintoxicantes{
+	background-image: url("../images/salud-desintoxicante-servicios.jpg");
+}
+#servicios_piernas{
+	background-image: url("../images/belleza-piernas---servicios.jpg");
+}
+#servicios_pestanas{
+	background-image: url("../images/belleza-pestañas-servicios.jpg");
+}
+#servicios_cejas{
+	background-image: url("../images/belleza-planchado-de-cejas---servicios.jpg");
+}
+#servicios_cabello{
+	background-image: url("../images/belleza-extensiones-de-cabello-servicios.jpg");
+}
+#servicios_manipedi{
+	background-image: url("../images/belleza-mani-pedi--servicios.jpg");
+}
+/*################################################### Conocenos ############################################################*/
+#conocenos_content{
+	margin-top: 100px;
+}
+#conocenos_description{
+	
+}
+#conocenos_description p {
+	font-size: 2em;
+	padding: 50px;
+}
+.conocenos_p{
+	font-size: 1.6em;
+    margin-bottom: 50px;
+}
+#conocenos_salud{
+	background: url("../images/barra verde-conocenos.svg") no-repeat;
+	background-position: 50%;
+	background-size: cover;
+}
+#conocenos_bg1{
+	background: url("../images/patron ambar - conocenos.svg") no-repeat;
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#conocenos_belleza{
+	background: url("../images/barra beige-conocenos.svg") no-repeat;
+	background-position: 50%;
+	background-size: cover;
+}
+#conocenos_bg2{
+	background: url("../images/patron verde - conocenos.svg") no-repeat;
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#conocenos_relajacion{
+	background: url("../images/barra azul-conocenos.svg") no-repeat;
+	background-position: 50%;
+	background-size: cover;
+}
+#conocenos_bg3{
+	background: url("../images/patron azul - conocenos.svg") no-repeat;
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*################################################### Contacto ############################################################*/
+#contacto_content{
+	background-image: url("../images/patron - contacto.svg");
+	background-position: 50%;
+	background-size: cover;
+}
+#sucursales{
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+#sucursales_text{
+	margin-top: 40px;
+	margin-bottom: 70px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.sucursal{
+	font-size: 18px;
+}
+#redes{
+	background-color: #F4E3B8;
+	padding-top:50px;
+	padding-bottom:50px; 
+}
+#redes_icons>li{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.redes_icon{
+	font-size: 40px;
+	color:#3F3125 !important;
+	text-decoration: none !important;
+}
+#mail{
+	background-color: #F9F6E7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#mail_head{
+	font-weight: bold;
+	font-size: 18px;
+}
+#mail_content{
+	font-size: 18px;	
+}
+/*################################################### Subservicio ############################################################*/
+#subservicio_content{
+	margin-top: 90px;
+}
+#filter{
+	width:100%;
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+}
+#descripcionServicios{
+	font-size: 1.8em;
+	padding: 40px;
+}
+.servicioTitulo{
+	font-family: futura;
+	font-weight: bolder;
+	border: 4px solid #3F3125;
+	width: 300px;
+	margin:auto;
+	padding: 10px;
+	font-size: 2em;
+}
+#servicioCategoria{
+	font-weight: bolder;
+	font-size: 3em;
+	position: relative;
+}
+.servicio{
+	margin: 35px;
+}
+.servicioDescripcion{
+	font-size: 1.5em;
+	padding: 30px;
+}
+.servicioCosto,.servicioPromocion,.servicioDuracion{
+	font-size: 1.5em;
+	padding-left: 30px;
+}
